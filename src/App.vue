@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
+
     <router-view />
   </div>
 </template>
@@ -11,4 +11,7 @@ export default {
 }
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+.dog {
+  font-size:20px
+}</style>
